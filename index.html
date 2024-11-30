@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <nav class="navbar bg-custom mb-5 welcome-container d-none">
+      <div class="container-fluid">
+        <div class="row m-auto">
+          <div class="col-6 me-auto justify-content-between d-flex">
+            <a href="#" class="navbar-brand text-white">SMART LOGIN </a>
+          </div>
+        </div>
+        <div class="col-6 me-auto justify-content-end d-flex">
+          <button
+            class="btn btn-outline-warning text-white-50 hover-logout"
+            type="button"
+          >
+            Logout
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-5 welcome-container-tow"></div>
+    <div class="container d-block login-page">
+      <div class="row px-5">
+        <div
+          class="col-12 justify-content-center align-content-center align-items-center px-5"
+        >
+          <div
+            class="inner bg-custom my-5 d-flex justify-content-center align-content-center w-75 m-auto flex-column"
+          >
+            <div class="text-center">
+              <h1 class="pt-5 custom-font-h1 mb-3">Smart Login System</h1>
+              <form class="px-5">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control form-control-min d-none label-Name name"
+                    id="inputPassword"
+                    placeholder="Enter Your Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control form-control-min email"
+                    id="inputPassword"
+                    placeholder="Enter Your Email"
+                  />
+                </div>
+                <div class="mb-4">
+                  <input
+                    type="password"
+                    class="form-control form-control-min pass"
+                    id="inputPassword"
+                    placeholder="Enter Your Password"
+                  />
+                </div>
+                <h6 class="text-danger d-none mb-3 error-sign-tow">
+                  Incorrect email or password
+                </h6>
+                <h6 class="text-danger d-none mb-3 error-sign">
+                  All inputs is required
+                </h6>
+                <button
+                  type="button"
+                  class="btn btn-outline-primary w-100 btn-border btn-login d-block"
+                >
+                  Login
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-primary w-100 btn-border btn-Sign d-none"
+                >
+                  Sign Up
+                </button>
+              </form>
+
+              <h6 class="pt-3 text-white mb-5 sign-h d-block">
+                Don’t have an account?&nbsp; <span class="signUp">Sign Up</span>
+              </h6>
+              <h6 class="pt-3 text-white mb-5 d-none log-h d-block">
+                You have an account?&nbsp;
+                <span class="log-in-f logIn">Login</span>
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

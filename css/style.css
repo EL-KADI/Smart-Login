@@ -1,0 +1,83 @@
+body {
+  background-color: #24353f;
+  font-family: "Titillium Web", sans-serif;
+}
+.custom-font-h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #17a2b8;
+}
+.bg-custom {
+  background-color: #24353f;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.form-control-min {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: inherit;
+  background-clip: padding-box;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control-min:focus {
+  border-color: #17a2b8 !important;
+  box-shadow: none !important;
+  background-color: inherit !important;
+}
+.form-control-min::placeholder {
+  color: #ffffff;
+  opacity: 0.6;
+}
+.btn-outline-primary {
+  --bs-btn-color: #17a2b8;
+  --bs-btn-border-color: #17a2b8;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #17a2b8;
+  --bs-btn-hover-border-color: #17a2b8;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #17a2b8;
+  --bs-btn-active-border-color: #53757c;
+  --bs-btn-active-shadow: 0 2px 4px rgba(75, 89, 97, 0.581);
+  --bs-btn-disabled-color: #17a2b8;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #17a2b8;
+  --bs-gradient: none;
+}
+
+.btn {
+  transition: box-shadow 0.3s ease;
+}
+
+.btn:active {
+  box-shadow: var(--bs-btn-active-shadow);
+}
+.signUp {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.signUp:hover {
+  border-bottom: solid white 1px;
+}
+.logIn {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.logIn:hover {
+  border-bottom: solid white 1px;
+}
+.hover-logout {
+  transition: all 0.3s;
+}
+.hover-logout:hover {
+  color: rgb(255, 255, 255) !important;
+}
